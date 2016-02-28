@@ -1,0 +1,79 @@
+/*@import url(https://fonts.googleapis.com/css?family=Lora:400,700);*/
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+/*@font-face { font-family: "Lora"; src: url("./fonts/Lora-Regular.ttf"); };*/
+@font-face { font-family: "Roboto"; src: url("./fonts/Roboto-Regular.ttf"); };
+@font-face { font-family: "Bebas Neue"; src: url("./fonts/BebasNeue Regular.otf"); };
+@font-face { font-family: "Bebas Neue"; src: url("./fonts/BebasNeue Bold.otf"); font-weight: "bold"; };
+
+body {
+  font-size: 2em;
+  font-family: 'Droid Serif';
+}
+h1, h2, h3 {
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  letter-spacing: 4px;
+}
+h1 {
+  color: #78A300;
+  font-size: 4em !important;
+  font-weight: bold;
+}
+h2 {
+  font-size: 3em !important;
+  margin: 0.6em 0 0.4em 0;
+}
+.goal p {
+  padding-top: 1em !important;
+  font-size: 2.75em !important;
+}
+.topic-template h1 {
+  color: #999;
+  font-family: "Bebas Neue";
+  font-size: 0.9em !important;
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: left;
+  letter-spacing: 4px;
+  border-bottom: 1px solid #ddd;
+}
+.remark-code, .remark-inline-code {
+  font-family: "Roboto Mono", monospace;
+  line-height: 28px;
+}
+.remark-container {
+  background-color: #333;
+}
+.remark-slide-content {
+  background-color: #fff;
+  color: #333;
+  font-family: "Droid Serif";
+  letter-spacing: 1px !important;
+}
+.remark-slide-content p,
+.remark-slide-content li {
+  font-size: 1.5em;
+  padding: 8px 0;
+}
+.remark-slide-content li ul li {
+  font-size: inherit;
+}
+.remark-slide-number {
+  font-size: 0.45em;
+}
+.remark-notes {
+  font-size: 1.5em;
+}
+p.image-attribution {
+  color: #777;
+  font-size: 0.5em;
+  font-family: "Arial";
+  margin: -35px 0 0 0;
+  padding: 0;
+}
+
+#slide-opening h1 {
+  font-size: 5em !important;
+}
