@@ -74,6 +74,32 @@ p.image-attribution {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+.alternative {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.alternative p {
+  margin: 0;
+  padding: 0;
+}
+
+.alternative img {
+  margin: 0;
+  padding: 0;
+  height: 200px;
+}
+
 #slide-opening h1 {
   font-size: 5em !important;
+  margin-bottom: 0;
 }
