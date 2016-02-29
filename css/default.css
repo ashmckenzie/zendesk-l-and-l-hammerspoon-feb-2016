@@ -29,7 +29,7 @@ h2 {
   padding-top: 1em !important;
   font-size: 2.75em !important;
 }
-.topic-template h1 {
+.topic-template-old h1 {
   color: #999;
   font-family: "Bebas Neue";
   font-size: 0.9em !important;
@@ -38,6 +38,21 @@ h2 {
   text-align: left;
   letter-spacing: 4px;
   border-bottom: 1px solid #ddd;
+}
+.topic-template {
+  padding-bottom: 32px;
+}
+.topic-template h1 {
+  color: #999;
+  font-family: "Bebas Neue";
+  font-size: 0.9em !important;
+  text-align: left;
+  letter-spacing: 4px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  width: 747px;
+  position: absolute;
+  top: 8px;
 }
 .remark-code, .remark-inline-code {
   font-family: "Roboto Mono", monospace;
